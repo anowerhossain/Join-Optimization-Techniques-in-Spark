@@ -2,7 +2,9 @@
 Joins in Apache Spark are expensive operations because they involve data movement across the cluster. If not optimized, joins can cause:
 
 ❌ Slow Performance – Due to expensive shuffles across nodes.
+
 ❌ High Memory Usage – Large joins can cause OutOfMemory (OOM) errors.
+
 ❌ Network Bottlenecks – Large data transfers slow down execution.
 
 Thus, join optimization is crucial to ensure efficient and scalable Spark performance.
