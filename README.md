@@ -26,5 +26,6 @@ broadcast_df.explain(True)  # See how Spark optimizes the query
 broadcast_df.count()
 ```
 ✅ Fast execution (no shuffle)
+
 ✅ Reduces memory & network overhead
 
